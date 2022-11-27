@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super_Hero</title>
+    <link rel="stylesheet" href="assets/estilos.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
+      <link rel="icon" type="image/ico" href="assets/img/favicon.ico">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body style="font-family: 'Nerko One', cursive;">
+    <div class="container">
+
+</div>
+
+    <main class="container ">
+      <section  class="text-center">
+        <img src="assets/img/sh2.jpg" />
+      </section>
+
+      <section  class="text-center">
+        <h1>ENCUENTRA TU SUPER HERO</h1>
+
+        <form id="formulario">
+          <div class="form-group">
+            <label for="exampleInputEmail1"
+              >Ingresa un numero y veamos a que super hero corresponde</label
+            >
+            <input type="number" class="form-control text-center" id="superhero-input" />
+          </div>
+
+          <button type="submit" class="btn btn-dark .align-bottom text-center ">Consulta</button>
+        </form>
+      </section>
+      
+
+      <section>
+        <div class="card" id="tarjeta-superheroe">
+          <div class="row">
+            <div class="col-12 col-sm-5">
+              <div class="col-12 col-sm-6">
+                <img src="" alt="" id="imagen" class="img-fluid" />
+              </div>
+              <div class="col-12 col-sm-6">
+                <h1 id="nombre"></h1>
+                <p id="publicadopor"></p>
+                <hr />
+                <p id="ocupacion"></p>
+                <hr />
+                <p id="aparicion"></p>
+                <hr />
+                <p id="altura"></p>
+                <hr />
+                <p id="peso"></p>
+                <hr />
+                <p id="alianzas"></p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-5">
+              <div id="traeTodo" style="height: 370px; width: 100%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
